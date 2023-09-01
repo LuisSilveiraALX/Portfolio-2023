@@ -1,0 +1,43 @@
+.nav-container {
+  position: static;
+}
+
+.nav-list {
+  display: flex;
+  list-style: none;
+  height: 100%;
+}
+
+.nav-item {
+  transition: transform 450ms;
+  transition: .3s;
+}
+
+.nav-item:hover {
+  color: white;
+  transform: scale(1.2);
+}
+
+
+.nav-link {
+  color: var(--text-color);
+  font-size: 2rem;
+  margin: 9px;
+}
+
+.nav-link:hover {
+  color: white;
+}
+
+/* Media queries */
+@media (max-width: 1024px) {
+  .nav-container {
+    position: static;
+  }
+  .nav-list {
+    margin-top: 10px;
+    align-items: center;
+    justify-content: center;
+  }
+
+}
