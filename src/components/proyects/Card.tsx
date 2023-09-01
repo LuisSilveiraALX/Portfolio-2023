@@ -56,8 +56,8 @@ export const Card2: React.FC<CardProps2> = ({
   
   <div className='allprojects__card'>
     <div className='allprojects__items'>
-      <h3 className='allprojects__title'>{title}</h3>
-      <span>
+      <a href={link} target="_blank" rel="noopener noreferrer" className='allprojects__title text-effect'>{title}</a>
+      <span className='span__container'>
           {techArray.map((technologies, index) => (
               <span key={index} className='allprojects_span '>{technologies}</span>
            ))}

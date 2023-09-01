@@ -8,8 +8,8 @@ import {AiOutlineArrowLeft} from 'react-icons/ai'
 
     return (
         <section className="allprojects__container">
-          <Link className='proyects resume' href="/"><AiOutlineArrowLeft/> Home</Link>
-          <h1>All Projects</h1>
+          
+          <h1 className='projects__title'><Link className='home__link' href="/"><AiOutlineArrowLeft/> Home</Link>All Projects</h1>
 
           <div className="container__table">
           <div className='table__titles'>

@@ -6,6 +6,7 @@ import Work5 from '../../assets/Work5.jpg'
 import Work6 from '../../assets/Work6.jpg'
 import Work7 from '../../assets/Work7.jpg'
 import Work10 from '../../assets/Work10.jpg'
+import Work11 from '../../assets/Work11.jpg'
 
 const Data = [
     {
@@ -33,6 +34,22 @@ const Data = [
         link:"https://github.com/LuisSilveiraALX/Tracker_App"
     },
     {
+        id:11,
+        title:"Portfolio 2023",
+        Image: Work11,
+        description:"my personal portfolio of this year built with nextJS and TypeScript",
+        technologies:"ReactJS NextJS TypeScript CSS",
+        link:"https://github.com/LuisSilveiraALX/Portfolio-2023"
+    },
+    {
+        id:10,
+        title:"Inspirational Quote ",
+        Image: Work10,
+        description:"Full-Stack project about generating motivational notes from historical figures.",
+        technologies:"NextJS TypeScript NodeJS AWS",
+        link:"https://github.com/LuisSilveiraALX/inspirational-quote-generation"
+    },
+    {
         id:4,
         title:"Travel Agency",
         Image: Work4,
@@ -41,12 +58,18 @@ const Data = [
         link:"https://github.com/LuisSilveiraALX/agenciaViajesNode"
     },
     {
-        id:10,
-        title:"Inspirational Quote Generation",
-        Image: Work10,
-        description:"Full-Stack project about generating motivational notes from historical figures.",
-        technologies:"NextJS TypeScript NodeJS AWS",
-        link:"https://github.com/LuisSilveiraALX/inspirational-quote-generation"
+        id:8,
+        title:"Backend Blog",
+        description:"Full Backend about posting, editing, deleting blog posts",
+        technologies:"NodeJS Express MongoDB Postman",
+        link:"https://github.com/LuisSilveiraALX/Backend-Blog"
+    },
+    {
+        id:9,
+        title:"Backend DiaryNotes",
+        description:"Full Backend about posting, editing, deleting diary notes",
+        technologies:"NodeJS Express MongoDB TypeScript",
+        link:"https://github.com/LuisSilveiraALX/api-node-ts"
     },
     {
         id:6,
@@ -63,20 +86,6 @@ const Data = [
         description:"Simple application to extract weather data through an api.",
         technologies:"ReactJS Tailwinds",
         link:"https://github.com/LuisSilveiraALX/app-clima"
-    },
-    {
-        id:8,
-        title:"Backend Blog",
-        description:"Full Backend about posting, editing, deleting blog posts",
-        technologies:"NodeJS Express MongoDB Postman",
-        link:"https://github.com/LuisSilveiraALX/Backend-Blog"
-    },
-    {
-        id:9,
-        title:"Backend DiaryNotes",
-        description:"Full Backend about posting, editing, deleting diary notes",
-        technologies:"NodeJS Express MongoDB TypeScript",
-        link:"https://github.com/LuisSilveiraALX/api-node-ts"
     },
     {
         id:7,
