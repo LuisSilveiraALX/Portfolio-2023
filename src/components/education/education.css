@@ -9,8 +9,6 @@
   max-width: 34rem;
 }
 
-
-
 .timeline__item:hover {
   cursor: pointer;
   border-radius: 10px;
@@ -101,3 +99,4 @@
   }
   
 }
+

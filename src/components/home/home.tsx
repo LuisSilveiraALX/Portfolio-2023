@@ -4,6 +4,7 @@ import Navigation from '../nav/nav';
 import Sections from '../sections/sections';
 import Education from '../education/education';
 import Proyects from '../proyects/proyects';
+import Footer from '../footer/footer';
 
 const Home: React.FC = () => {
   return (
@@ -26,6 +27,7 @@ const Home: React.FC = () => {
         <Education />
         <h1 className='text-visible'>Projects</h1>
         <Proyects />
+        <Footer  />
         
       </div>
     </div>
