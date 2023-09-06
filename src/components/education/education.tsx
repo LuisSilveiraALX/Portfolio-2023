@@ -25,7 +25,7 @@ const Education: React.FC = () => {
         </div>
       </div>
       <div className="container__resume">
-      <a className='resume' href="https://drive.google.com/file/d/1TQ_8G2tkVaXUWxsi3bacRfZqxAquKdZi/view" target="_blank" rel="noopener noreferrer">Download CV</a>
+      <a className='resume' href="/resume.pdf" target="_blank" rel="noopener noreferrer">Download CV</a>
       </div>
     </div>
   );

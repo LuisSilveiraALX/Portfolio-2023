@@ -6,6 +6,7 @@
   display: flex;
   list-style: none;
   height: 100%;
+  margin-top: 100px;
 }
 
 .nav-item {
@@ -35,7 +36,7 @@
     position: static;
   }
   .nav-list {
-    margin-top: 10px;
+    margin-top: 20px;
     align-items: center;
     justify-content: center;
   }

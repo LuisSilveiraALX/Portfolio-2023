@@ -5,7 +5,7 @@ const Data = [
         title:"ORT University",
         year:"2023",
         description:"Currently studying the Programmer Analyst career at the ORT University in Montevideo, Uruguay.",
-        technologies:"JavaScript ReactJS C#",
+        technologies:"JavaScript ReactJS SQL C#",
         link:"https://www.ort.edu.uy/"
     },
     {

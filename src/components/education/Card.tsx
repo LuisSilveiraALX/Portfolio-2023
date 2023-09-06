@@ -17,7 +17,7 @@ const Card: React.FC<CardProps> = ({
     }) => {
     const techArray=technologies.split(' ');
     return (
-            <div className="timeline__item timeline_extra">
+            <div className="timeline__item timeline_extra timeline__responsive">
                 <h2 className="timeline__date">{year}</h2>
                     <div className="timeline__item2">
                     <div className="timeline__title">

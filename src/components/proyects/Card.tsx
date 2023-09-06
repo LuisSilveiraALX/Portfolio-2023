@@ -1,9 +1,9 @@
-import Image from 'next/image';
+import Image, { StaticImageData } from 'next/image';
 import {FiGithub} from 'react-icons/fi'
 
 interface CardProps {
   title: string;
-  imageUrl: string;
+  imageUrl: string | StaticImageData;
   description: string;
   technologies: string;
   link: string;

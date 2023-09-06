@@ -88,5 +88,16 @@
     max-width: 100%;
   }
 
+  .timeline__responsive {
+    display: block;
+  }
+
+  .resume {
+    margin: 30px;
+  }
+
+  .timeline__date {
+    padding: 0px 20px;
+  }
   
 }
